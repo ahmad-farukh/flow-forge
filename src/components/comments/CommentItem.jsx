@@ -1,0 +1,1 @@
+import Avatar from "../common/Avatar"; import { formatDateTime } from "../../utils/date"; export default function CommentItem({comment}){return <div className="comment"><Avatar name={comment.userId}/><div><div className="row-between"><b>{comment.userId}</b><small>{formatDateTime(comment.$createdAt)}</small></div><p>{comment.content}</p></div></div>}

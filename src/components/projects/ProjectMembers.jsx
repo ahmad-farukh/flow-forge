@@ -1,0 +1,1 @@
+import Avatar from "../common/Avatar"; export default function ProjectMembers({members=[]}){return <div className="avatar-stack">{members.map(m=><Avatar key={m.$id||m.userId} name={m.name||m.userId}/>)}</div>}

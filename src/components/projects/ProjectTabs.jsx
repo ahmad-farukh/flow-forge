@@ -1,0 +1,1 @@
+export default function ProjectTabs({active,onChange}){return <div className="tabs">{["overview","tasks","members","files","comments"].map(x=><button key={x} className={active===x?"active":""} onClick={()=>onChange(x)}>{x[0].toUpperCase()+x.slice(1)}</button>)}</div>}

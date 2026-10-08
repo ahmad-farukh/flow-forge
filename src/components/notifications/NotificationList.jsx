@@ -1,0 +1,1 @@
+import NotificationItem from "./NotificationItem"; export default function NotificationList({items=[],onRead}){return <div className="notifications">{items.map(n=><NotificationItem key={n.$id} item={n} onRead={onRead}/>)}</div>}

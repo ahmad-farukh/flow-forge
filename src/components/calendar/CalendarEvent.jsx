@@ -1,0 +1,1 @@
+export default function CalendarEvent({event}){return <small className="calendar-event">{event.title}</small>}

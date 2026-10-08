@@ -1,0 +1,1 @@
+export default function FilePreview({file}){return <div className="file-item">▧ <span>{file?.name||"File"}</span></div>}

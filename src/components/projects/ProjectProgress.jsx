@@ -1,0 +1,1 @@
+import { percent } from "../../utils/formatters"; export default function ProjectProgress({value=0}){return <div><div className="progress large"><i style={{width:percent(value)}}/></div><b>{percent(value)}</b></div>}

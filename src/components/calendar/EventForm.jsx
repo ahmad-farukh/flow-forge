@@ -1,0 +1,4 @@
+import { useForm } from "react-hook-form";
+import Input from "../common/Input";
+import Button from "../common/Button";
+export default function EventForm({onSubmit}){const {register,handleSubmit}=useForm();return <form className="form-grid" onSubmit={handleSubmit(onSubmit)}><Input label="Title" {...register("title",{required:true})}/><Input label="Start" type="datetime-local" {...register("startDate",{required:true})}/><Input label="End" type="datetime-local" {...register("endDate",{required:true})}/><label className="field"><span>Color</span><input className="color-input" type="color" defaultValue="#4f46e5" {...register("color")}/></label><label className="field full-span"><span>Description</span><textarea className="input textarea" {...register("description")}/></label><Button type="submit">Save event</Button></form>}

@@ -1,0 +1,1 @@
+import StatCard from "./StatCard"; export default function StatsCards({stats}){return <div className="stats-grid">{stats.map(s=><StatCard key={s.label} {...s}/>)}</div>}

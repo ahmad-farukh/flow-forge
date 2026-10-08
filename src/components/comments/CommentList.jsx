@@ -1,0 +1,1 @@
+import CommentItem from "./CommentItem"; export default function CommentList({comments=[]}){return <div className="comments">{comments.map(c=><CommentItem key={c.$id} comment={c}/>)}</div>}

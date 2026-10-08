@@ -1,0 +1,2 @@
+import Sidebar from "./Sidebar"; import Topbar from "./Topbar"; import PageContainer from "./PageContainer";
+export default function MainLayout({children}){return <div className="app-shell"><Sidebar/><section className="content-shell"><Topbar/><PageContainer>{children}</PageContainer></section></div>}

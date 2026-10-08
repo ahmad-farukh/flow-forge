@@ -1,0 +1,1 @@
+export default function AIResponse({content}){return <div className="chat-msg assistant"><span>AI</span><p>{content}</p></div>}

@@ -1,0 +1,1 @@
+import ProjectCard from "./ProjectCard"; import EmptyState from "../common/EmptyState"; export default function ProjectGrid({projects=[]}){return projects.length?<div className="cards-grid">{projects.map(p=><ProjectCard key={p.$id} project={p}/>)}</div>:<EmptyState title="No projects" text="Create your first project to get started."/>}

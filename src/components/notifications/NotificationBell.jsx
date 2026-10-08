@@ -1,0 +1,1 @@
+import { Link } from "react-router-dom"; export default function NotificationBell({count=0}){return <Link className="notif-bell" to="/notifications">♧{count>0&&<i>{count}</i>}</Link>}

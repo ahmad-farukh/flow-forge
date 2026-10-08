@@ -1,0 +1,1 @@
+import { useState } from "react"; export default function TaskChecklist({items=[],onToggle}){return <div className="checklist">{items.map(x=><label key={x.$id}><input type="checkbox" checked={Boolean(x.isCompleted)} onChange={()=>onToggle(x)}/><span className={x.isCompleted?"done":""}>{x.title}</span></label>)}</div>}

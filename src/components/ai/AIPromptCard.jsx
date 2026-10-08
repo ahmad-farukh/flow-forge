@@ -1,0 +1,1 @@
+export default function AIPromptCard({title,onClick}){return <button className="prompt-card" onClick={onClick}><b>{title}</b><span>→</span></button>}

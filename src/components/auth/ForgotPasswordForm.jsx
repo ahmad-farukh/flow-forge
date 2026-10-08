@@ -1,0 +1,2 @@
+import { useForm } from "react-hook-form"; import Input from "../common/Input"; import Button from "../common/Button";
+export default function ForgotPasswordForm(){const {register,handleSubmit}=useForm();return <form className="auth-form" onSubmit={handleSubmit(()=>{})}><h2>Reset password</h2><p className="muted">Enter your email and use Appwrite's recovery flow to reset your password.</p><Input label="Email address" type="email" {...register("email",{required:true})}/><Button type="submit" className="full">Send recovery email</Button></form>}

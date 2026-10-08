@@ -1,0 +1,1 @@
+export default function MemberProfile({member}){return <div className="panel"><h2>{member?.name||member?.userId}</h2><p>{member?.email}</p></div>}

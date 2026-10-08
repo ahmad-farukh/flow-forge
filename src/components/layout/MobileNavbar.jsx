@@ -1,0 +1,2 @@
+import { useDispatch } from "react-redux"; import { toggleSidebar } from "../../store/slices/uiSlice";
+export default function MobileNavbar() { const dispatch=useDispatch(); return <button className="mobile-menu" onClick={()=>dispatch(toggleSidebar())}>☰</button>; }

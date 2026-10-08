@@ -1,0 +1,1 @@
+import { TASK_COLUMNS } from "../../constants/taskStatus"; import TaskColumn from "./TaskColumn"; export default function TaskBoard({tasks,onDrop}){return <div className="kanban">{TASK_COLUMNS.map(c=><TaskColumn key={c.key} column={c} tasks={tasks.filter(t=>t.status===c.key)} onDrop={onDrop}/>)}</div>}

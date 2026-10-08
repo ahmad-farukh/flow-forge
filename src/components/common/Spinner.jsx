@@ -1,0 +1,1 @@
+export default function Spinner({ label="Loading" }) { return <span className="spinner-wrap"><span className="spinner" aria-hidden="true" />{label && <span className="sr-only">{label}</span>}</span>; }

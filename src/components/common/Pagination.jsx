@@ -1,0 +1,2 @@
+import Button from "./Button";
+export default function Pagination({ page, hasNext, onPrevious, onNext }) { return <div className="pagination"><Button variant="ghost" disabled={page<=1} onClick={onPrevious}>Previous</Button><span>Page {page}</span><Button variant="ghost" disabled={!hasNext} onClick={onNext}>Next</Button></div>; }

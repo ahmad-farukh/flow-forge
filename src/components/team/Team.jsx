@@ -1,0 +1,1 @@
+import MemberCard from "./MemberCard"; export default function Team({members=[]}){return <div className="cards-grid">{members.map(m=><MemberCard key={m.$id||m.userId} member={m}/>)}</div>}

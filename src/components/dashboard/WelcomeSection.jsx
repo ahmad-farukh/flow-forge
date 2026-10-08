@@ -1,0 +1,1 @@
+export default function WelcomeSection({name="there"}){return <div className="welcome"><div><h1>Good morning, {name}! 👋</h1><p>Here's what's happening with your projects today.</p></div></div>}

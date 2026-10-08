@@ -1,0 +1,1 @@
+import Avatar from "../common/Avatar"; import Badge from "../common/Badge"; export default function MemberCard({member}){return <div className="card member-card"><Avatar name={member.name||member.userId}/><div><h3>{member.name||member.userId}</h3><small>{member.email||"Project member"}</small><Badge>{member.role||"member"}</Badge></div></div>}

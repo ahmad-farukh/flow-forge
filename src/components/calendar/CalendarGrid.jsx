@@ -1,0 +1,1 @@
+export default function CalendarGrid({children}){return <div className="calendar-grid">{children}</div>}

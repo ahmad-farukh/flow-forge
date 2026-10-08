@@ -1,0 +1,1 @@
+export default function TaskActivity({items=[]}){return <div className="activity-list">{items.map(x=><div className="activity-line" key={x.$id}>{x.message}</div>)}</div>}

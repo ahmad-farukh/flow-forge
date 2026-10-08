@@ -1,0 +1,1 @@
+export default function SocialAuth(){return <div className="social-row"><button className="btn btn-ghost" type="button">G Google</button><button className="btn btn-ghost" type="button">◉ GitHub</button></div>}

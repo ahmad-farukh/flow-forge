@@ -1,0 +1,1 @@
+import Avatar from "../common/Avatar"; import { formatDateTime } from "../../utils/date"; export default function ActivityItem({item}){return <div className="activity"><Avatar name={item.name||"User"} src={item.avatarUrl}/><div><b>{item.message||"Updated a project"}</b><small>{formatDateTime(item.$createdAt)}</small></div></div>}

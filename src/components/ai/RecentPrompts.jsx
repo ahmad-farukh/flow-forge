@@ -1,0 +1,1 @@
+export default function RecentPrompts({items=[]}){return <div className="recent-prompts">{items.map(x=><button key={x} onClick={()=>{}}>{x}</button>)}</div>}

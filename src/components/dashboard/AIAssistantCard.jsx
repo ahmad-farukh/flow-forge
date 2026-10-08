@@ -1,0 +1,1 @@
+import Button from "../common/Button"; import { Link } from "react-router-dom"; export default function AIAssistantCard(){return <section className="ai-card"><div className="ai-orb">✦</div><div><small>AI Assistant</small><h3>Turn ideas into action with the power of AI.</h3><Link to="/ai"><Button>Try Now</Button></Link></div></section>}

@@ -1,0 +1,1 @@
+export default function ProjectHeader({children,title,subtitle}){return <div className="page-head"><div><h1>{title}</h1><p>{subtitle}</p></div><div className="head-actions">{children}</div></div>}

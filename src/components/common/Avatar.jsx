@@ -1,0 +1,2 @@
+import { initials } from "../../utils/formatters";
+export default function Avatar({ name="", src="", size="md" }) { return src ? <img className={`avatar avatar-${size}`} src={src} alt={name} /> : <div className={`avatar avatar-${size}`}>{initials(name)}</div>; }

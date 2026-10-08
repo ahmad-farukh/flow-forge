@@ -1,0 +1,1 @@
+import { formatDateTime } from "../../utils/date"; export default function NotificationItem({item,onRead}){return <button className={`notification ${item.isRead?"read":""}`} onClick={()=>onRead(item)}><div><b>{item.title}</b><p>{item.message}</p><small>{formatDateTime(item.$createdAt)}</small></div></button>}

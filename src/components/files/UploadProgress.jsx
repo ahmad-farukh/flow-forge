@@ -1,0 +1,1 @@
+export default function UploadProgress({value=0}){return <div className="progress"><i style={{width:`${value}%`}}/></div>}

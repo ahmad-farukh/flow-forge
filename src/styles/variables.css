@@ -1,0 +1,10 @@
+:root{--bg:#061329;--bg2:#081a32;--panel:#0a1d37;--panel2:#0d2444;--line:#1b3c63;--text:#f5f7ff;--muted:#89a0bf;--primary:#6d5dfc;--primary2:#8a72ff;--cyan:#16d7d2;--danger:#ef5b70;--shadow:0 20px 60px rgba(0,0,0,.22)}
+:root[data-theme="light"]{--bg:#f4f7fb;--bg2:#fff;--panel:#fff;--panel2:#f4f7fb;--line:#dbe4ef;--text:#0d1b2e;--muted:#63758c;--shadow:0 12px 35px rgba(17,35,58,.08)}
+*{box-sizing:border-box}:root[data-theme="light"] body{background:linear-gradient(180deg,#f7faff,#eef4fb);color:var(--text)}
+:root[data-theme="light"] .topbar{background:rgba(255,255,255,.88)}
+:root[data-theme="light"] .sidebar{background:rgba(255,255,255,.96)}
+:root[data-theme="light"] .nav-item{color:#63758c}
+:root[data-theme="light"] .nav-item:hover,.nav-item.active{color:#fff}
+:root[data-theme="light"] .panel,.card{background:var(--panel);box-shadow:var(--shadow)}
+:root[data-theme="light"] .input,.search{background:#f8fbff;color:var(--text)}
+:root[data-theme="light"] .task-card,.project-mini,.kanban-column,.recent-prompts button,.prompt-card{background:#f7faff}

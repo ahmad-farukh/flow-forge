@@ -1,0 +1,2 @@
+import { useSelector } from "react-redux"; import { Link } from "react-router-dom"; import Avatar from "../common/Avatar"; import MobileNavbar from "./MobileNavbar";
+export default function Topbar(){const p=useSelector(s=>s.auth.profile),u=useSelector(s=>s.auth.user);return <header className="topbar"><MobileNavbar/><div className="search"><span>⌕</span><input placeholder="Search projects, tasks, or people..." /></div><div className="top-actions"><Link to="/notifications">♧</Link><span>◔</span><Avatar name={p?.name||u?.name} src={p?.avatarUrl} size="sm"/></div></header>}

@@ -1,0 +1,1 @@
+export default function ResetPasswordForm(){return <div className="auth-form"><h2>Choose a new password</h2><p className="muted">Connect this screen to your Appwrite recovery URL when you enable password recovery.</p></div>}
